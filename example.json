@@ -1,0 +1,393 @@
+[
+  {
+    "utterance": "急性鼻炎，呼出热气，浓鼻涕，头痛（女，28）",
+    "intent": [
+      "描述"
+    ],
+    "speaker": "患者",
+    "frames": [
+      {
+        "slot": "病人基本信息",
+        "value": "",
+        "attr": [
+          {
+            "slot": "性别",
+            "value": "女",
+            "attr": []
+          },
+          {
+            "slot": "年龄",
+            "value": "28",
+            "attr": []
+          }
+        ]
+      },
+      {
+        "slot": "症状名称",
+        "value": "呼出热气",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          }
+        ]
+      },
+      {
+        "slot": "症状名称",
+        "value": "浓鼻涕",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          }
+        ]
+      },
+      {
+        "slot": "症状名称",
+        "value": "头痛",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          },
+          {
+            "slot": "部位",
+            "value": "头",
+            "attr": []
+          }
+        ]
+      },
+      {
+        "slot": "病史名称",
+        "value": "急性鼻炎",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "utterance": "你好，这些症状几天了？",
+    "intent": [
+      "客套",
+      "询问"
+    ],
+    "speaker": "医生",
+    "frames": []
+  },
+  {
+    "utterance": "哺乳期",
+    "intent": [
+      "描述"
+    ],
+    "speaker": "患者",
+    "frames": [
+      {
+        "slot": "病人基本信息",
+        "value": "",
+        "attr": [
+          {
+            "slot": "状态",
+            "value": "哺乳期",
+            "attr": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "utterance": "我是想搞清楚你是感冒（急性鼻炎），还是鼻窦炎",
+    "intent": [
+      "询问"
+    ],
+    "speaker": "医生",
+    "frames": [
+      {
+        "slot": "其他疾病名称",
+        "value": "感冒",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          }
+        ]
+      },
+      {
+        "slot": "其他疾病名称",
+        "value": "急性鼻炎",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          }
+        ]
+      },
+      {
+        "slot": "其他疾病名称",
+        "value": "鼻窦炎",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "utterance": "可能是感冒引起的急性鼻窦炎   2天了，昨天喉咙痛，今天喉咙不痛了，鼻子不舒服",
+    "intent": [
+      "描述"
+    ],
+    "speaker": "患者",
+    "frames": [
+      {
+        "slot": "症状名称",
+        "value": "痛",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          },
+          {
+            "slot": "部位",
+            "value": "喉咙",
+            "attr": []
+          },
+          {
+            "slot": "开始时间",
+            "value": "昨天",
+            "attr": []
+          },
+          {
+            "slot": "结束时间",
+            "value": "今天",
+            "attr": []
+          }
+        ]
+      },
+      {
+        "slot": "症状名称",
+        "value": "不舒服",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          },
+          {
+            "slot": "部位",
+            "value": "鼻子",
+            "attr": []
+          },
+          {
+            "slot": "开始时间",
+            "value": "今天",
+            "attr": []
+          }
+        ]
+      },
+      {
+        "slot": "疾病诊断名称",
+        "value": "感冒引起的急性鼻窦炎",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          },
+          {
+            "slot": "可能性",
+            "value": "可能是",
+            "attr": []
+          },
+          {
+            "slot": "持续时间",
+            "value": "2天",
+            "attr": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "utterance": "必须治疗，要不然就行成慢性鼻窦炎了，相当麻烦了",
+    "intent": [
+      "推荐"
+    ],
+    "speaker": "医生",
+    "frames": [
+      {
+        "slot": "其他疾病名称",
+        "value": "慢性鼻窦炎",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "utterance": "鼻塞",
+    "intent": [
+      "描述"
+    ],
+    "speaker": "患者",
+    "frames": [
+      {
+        "slot": "症状名称",
+        "value": "塞",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          },
+          {
+            "slot": "部位",
+            "value": "鼻",
+            "attr": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "utterance": "先按感冒治疗吧，用上感冒药加点头孢类消炎药",
+    "intent": [
+      "推荐"
+    ],
+    "speaker": "医生",
+    "frames": [
+      {
+        "slot": "推荐用药名称",
+        "value": "感冒药",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          }
+        ]
+      },
+      {
+        "slot": "推荐用药名称",
+        "value": "头孢类消炎药",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          }
+        ]
+      },
+      {
+        "slot": "其他疾病名称",
+        "value": "感冒",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          }
+        ]
+      },
+      {
+        "slot": "其他疾病名称",
+        "value": "感冒",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "utterance": "？   哺乳期可以用吗",
+    "intent": [
+      "询问推荐用药结果"
+    ],
+    "speaker": "患者",
+    "frames": []
+  },
+  {
+    "utterance": "可以，没问题的",
+    "intent": [
+      "回答"
+    ],
+    "speaker": "医生",
+    "frames": []
+  },
+  {
+    "utterance": "对小孩没问题？   什么牌子的药呢",
+    "intent": [
+      "询问推荐用药结果"
+    ],
+    "speaker": "患者",
+    "frames": []
+  },
+  {
+    "utterance": "头孢类抗生素及中药成分的感冒药都可以的",
+    "intent": [
+      "知识型回答"
+    ],
+    "speaker": "医生",
+    "frames": [
+      {
+        "slot": "推荐用药名称",
+        "value": "头孢类抗生素",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          }
+        ]
+      },
+      {
+        "slot": "推荐用药名称",
+        "value": "中药成分的感冒药",
+        "attr": [
+          {
+            "slot": "是否存在",
+            "value": "是",
+            "attr": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "utterance": "还可以喂奶吗",
+    "intent": [
+      "知识型询问"
+    ],
+    "speaker": "患者",
+    "frames": []
+  },
+  {
+    "utterance": "不影响哺乳的，药物代谢后几乎很少分泌到乳汁",
+    "intent": [
+      "知识型回答"
+    ],
+    "speaker": "医生",
+    "frames": []
+  }
+]
