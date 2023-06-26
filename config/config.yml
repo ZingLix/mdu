@@ -1,0 +1,16 @@
+tf_serving:
+  host: 172.20.137.87
+  rpc_port: 8500
+  rest_port: 8500
+  model:
+    diag_new:
+      model_spec_signature: serving_default
+      batch_size: 1
+      version: 3
+      concurrency: 32
+
+model:
+  config: "/root/nas/Project/TextRepair/pretrained_weights/chinese_roberta_www_ext/"
+
+predict:
+  concurrency: 32

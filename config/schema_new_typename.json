@@ -1,0 +1,1577 @@
+{
+    "intent": {
+        "doctor": {
+            "next": {
+                "客套": {
+                    "slots": []
+                },
+                "无意义": {
+                    "slots": []
+                },
+                "询问": {
+                    "slots": [
+                        "症状名称",
+                        "检查名称",
+                        "病史名称",
+                        "治疗方式名称",
+                        "用药名称",
+                        "科室名称",
+                        "病人基本信息",
+                        "禁忌名称",
+                        "疾病诊断名称",
+                        "推荐用药名称",
+                        "推荐检查名称",
+                        "推荐治疗方式名称",
+                        "其他症状名称",
+                        "其他疾病名称",
+                        "其他检查名称",
+                        "其他用药名称",
+                        "其他治疗方式名称",
+                        "其他禁忌名称",
+                        "其他科室名称"
+                    ]
+                },
+                "回答": {
+                    "slots": [
+                        "症状名称",
+                        "检查名称",
+                        "病史名称",
+                        "治疗方式名称",
+                        "用药名称",
+                        "科室名称",
+                        "病人基本信息",
+                        "禁忌名称",
+                        "疾病诊断名称",
+                        "推荐用药名称",
+                        "推荐检查名称",
+                        "推荐治疗方式名称",
+                        "其他症状名称",
+                        "其他疾病名称",
+                        "其他检查名称",
+                        "其他用药名称",
+                        "其他治疗方式名称",
+                        "其他禁忌名称",
+                        "其他科室名称"
+                    ]
+                },
+                "诊断": {
+                    "slots": [
+                        "症状名称",
+                        "检查名称",
+                        "病史名称",
+                        "治疗方式名称",
+                        "用药名称",
+                        "科室名称",
+                        "病人基本信息",
+                        "禁忌名称",
+                        "疾病诊断名称",
+                        "推荐用药名称",
+                        "推荐检查名称",
+                        "推荐治疗方式名称",
+                        "其他症状名称",
+                        "其他疾病名称",
+                        "其他检查名称",
+                        "其他用药名称",
+                        "其他治疗方式名称",
+                        "其他禁忌名称",
+                        "其他科室名称"
+                    ]
+                },
+                "推荐": {
+                    "slots": [
+                        "症状名称",
+                        "检查名称",
+                        "病史名称",
+                        "治疗方式名称",
+                        "用药名称",
+                        "科室名称",
+                        "病人基本信息",
+                        "禁忌名称",
+                        "疾病诊断名称",
+                        "推荐用药名称",
+                        "推荐检查名称",
+                        "推荐治疗方式名称",
+                        "其他症状名称",
+                        "其他疾病名称",
+                        "其他检查名称",
+                        "其他用药名称",
+                        "其他治疗方式名称",
+                        "其他禁忌名称",
+                        "其他科室名称"
+                    ]
+                },
+                "知识型回答": {
+                    "slots": [
+                        "症状名称",
+                        "检查名称",
+                        "病史名称",
+                        "治疗方式名称",
+                        "用药名称",
+                        "科室名称",
+                        "病人基本信息",
+                        "禁忌名称",
+                        "疾病诊断名称",
+                        "推荐用药名称",
+                        "推荐检查名称",
+                        "推荐治疗方式名称",
+                        "其他症状名称",
+                        "其他疾病名称",
+                        "其他检查名称",
+                        "其他用药名称",
+                        "其他治疗方式名称",
+                        "其他禁忌名称",
+                        "其他科室名称"
+                    ]
+                }
+            },
+            "question": "动作",
+            "prefix": ""
+        },
+        "patient": {
+            "next": {
+                "描述": {
+                    "slots": [
+                        "症状名称",
+                        "检查名称",
+                        "病史名称",
+                        "治疗方式名称",
+                        "用药名称",
+                        "科室名称",
+                        "病人基本信息",
+                        "禁忌名称",
+                        "疾病诊断名称",
+                        "推荐用药名称",
+                        "推荐检查名称",
+                        "推荐治疗方式名称",
+                        "其他症状名称",
+                        "其他疾病名称",
+                        "其他检查名称",
+                        "其他用药名称",
+                        "其他治疗方式名称",
+                        "其他禁忌名称",
+                        "其他科室名称"
+                    ]
+                },
+                "回答": {
+                    "slots": [
+                        "症状名称",
+                        "检查名称",
+                        "病史名称",
+                        "治疗方式名称",
+                        "用药名称",
+                        "科室名称",
+                        "病人基本信息",
+                        "禁忌名称",
+                        "疾病诊断名称",
+                        "推荐用药名称",
+                        "推荐检查名称",
+                        "推荐治疗方式名称",
+                        "其他症状名称",
+                        "其他疾病名称",
+                        "其他检查名称",
+                        "其他用药名称",
+                        "其他治疗方式名称",
+                        "其他禁忌名称",
+                        "其他科室名称"
+                    ]
+                },
+                "知识型询问": {
+                    "slots": [
+                        "症状名称",
+                        "检查名称",
+                        "病史名称",
+                        "治疗方式名称",
+                        "用药名称",
+                        "科室名称",
+                        "病人基本信息",
+                        "禁忌名称",
+                        "疾病诊断名称",
+                        "推荐用药名称",
+                        "推荐检查名称",
+                        "推荐治疗方式名称",
+                        "其他症状名称",
+                        "其他疾病名称",
+                        "其他检查名称",
+                        "其他用药名称",
+                        "其他治疗方式名称",
+                        "其他禁忌名称",
+                        "其他科室名称"
+                    ]
+                },
+                "询问诊断结果": {
+                    "slots": [
+                        "症状名称",
+                        "检查名称",
+                        "病史名称",
+                        "治疗方式名称",
+                        "用药名称",
+                        "科室名称",
+                        "病人基本信息",
+                        "禁忌名称",
+                        "疾病诊断名称",
+                        "推荐用药名称",
+                        "推荐检查名称",
+                        "推荐治疗方式名称",
+                        "其他症状名称",
+                        "其他疾病名称",
+                        "其他检查名称",
+                        "其他用药名称",
+                        "其他治疗方式名称",
+                        "其他禁忌名称",
+                        "其他科室名称"
+                    ]
+                },
+                "询问推荐用药结果": {
+                    "slots": [
+                        "症状名称",
+                        "检查名称",
+                        "病史名称",
+                        "治疗方式名称",
+                        "用药名称",
+                        "科室名称",
+                        "病人基本信息",
+                        "禁忌名称",
+                        "疾病诊断名称",
+                        "推荐用药名称",
+                        "推荐检查名称",
+                        "推荐治疗方式名称",
+                        "其他症状名称",
+                        "其他疾病名称",
+                        "其他检查名称",
+                        "其他用药名称",
+                        "其他治疗方式名称",
+                        "其他禁忌名称",
+                        "其他科室名称"
+                    ]
+                },
+                "询问推荐检查结果": {
+                    "slots": [
+                        "症状名称",
+                        "检查名称",
+                        "病史名称",
+                        "治疗方式名称",
+                        "用药名称",
+                        "科室名称",
+                        "病人基本信息",
+                        "禁忌名称",
+                        "疾病诊断名称",
+                        "推荐用药名称",
+                        "推荐检查名称",
+                        "推荐治疗方式名称",
+                        "其他症状名称",
+                        "其他疾病名称",
+                        "其他检查名称",
+                        "其他用药名称",
+                        "其他治疗方式名称",
+                        "其他禁忌名称",
+                        "其他科室名称"
+                    ]
+                },
+                "询问推荐科室结果": {
+                    "slots": [
+                        "症状名称",
+                        "检查名称",
+                        "病史名称",
+                        "治疗方式名称",
+                        "用药名称",
+                        "科室名称",
+                        "病人基本信息",
+                        "禁忌名称",
+                        "疾病诊断名称",
+                        "推荐用药名称",
+                        "推荐检查名称",
+                        "推荐治疗方式名称",
+                        "其他症状名称",
+                        "其他疾病名称",
+                        "其他检查名称",
+                        "其他用药名称",
+                        "其他治疗方式名称",
+                        "其他禁忌名称",
+                        "其他科室名称"
+                    ]
+                },
+                "询问笼统治疗方案": {
+                    "slots": [
+                        "症状名称",
+                        "检查名称",
+                        "病史名称",
+                        "治疗方式名称",
+                        "用药名称",
+                        "科室名称",
+                        "病人基本信息",
+                        "禁忌名称",
+                        "疾病诊断名称",
+                        "推荐用药名称",
+                        "推荐检查名称",
+                        "推荐治疗方式名称",
+                        "其他症状名称",
+                        "其他疾病名称",
+                        "其他检查名称",
+                        "其他用药名称",
+                        "其他治疗方式名称",
+                        "其他禁忌名称",
+                        "其他科室名称"
+                    ]
+                },
+                "询问其他治疗建议结果": {
+                    "slots": [
+                        "症状名称",
+                        "检查名称",
+                        "病史名称",
+                        "治疗方式名称",
+                        "用药名称",
+                        "科室名称",
+                        "病人基本信息",
+                        "禁忌名称",
+                        "疾病诊断名称",
+                        "推荐用药名称",
+                        "推荐检查名称",
+                        "推荐治疗方式名称",
+                        "其他症状名称",
+                        "其他疾病名称",
+                        "其他检查名称",
+                        "其他用药名称",
+                        "其他治疗方式名称",
+                        "其他禁忌名称",
+                        "其他科室名称"
+                    ]
+                },
+                "客套": {
+                    "slots": []
+                },
+                "无意义": {
+                    "slots": []
+                }
+            },
+            "question": "意图",
+            "prefix": ""
+        }
+    },
+    "slots": {
+        "症状名称": {
+            "next": {
+                "部位": {
+                    "next": {},
+                    "question": [
+                        "{症状名称}部位"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{症状名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                },
+                "程度": {
+                    "next": {},
+                    "question": [
+                        "{症状名称}程度"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "诱因": {
+                    "next": {},
+                    "question": [
+                        "{症状名称}诱因"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "引起的",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "频率": {
+                    "next": {},
+                    "question": [
+                        "{症状名称}频率"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "开始时间": {
+                    "next": {},
+                    "question": [
+                        "{症状名称}开始时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "结束时间": {
+                    "next": {},
+                    "question": [
+                        "{症状名称}结束时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "持续时间": {
+                    "next": {},
+                    "question": [
+                        "{症状名称}持续时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                }
+            },
+            "question": [
+                "症状名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "检查名称": {
+            "next": {
+                "检查值": {
+                    "next": {},
+                    "question": [
+                        "{检查名称}检查值"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{检查名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "不知道"
+                        ]
+                    }
+                },
+                "检查结果": {
+                    "next": {},
+                    "question": [
+                        "{检查名称}检查结果"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "检查时间": {
+                    "next": {},
+                    "question": [
+                        "{检查名称}检查时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                }
+            },
+            "question": [
+                "检查名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "病史名称": {
+            "next": {
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{病史名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                },
+                "程度": {
+                    "next": {},
+                    "question": [
+                        "{病史名称}程度"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "可能性": {
+                    "next": {},
+                    "question": [
+                        "{病史名称}可能性"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "开始时间": {
+                    "next": {},
+                    "question": [
+                        "{病史名称}开始时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "结束时间": {
+                    "next": {},
+                    "question": [
+                        "{病史名称}结束时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "持续时间": {
+                    "next": {},
+                    "question": [
+                        "{病史名称}持续时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                }
+            },
+            "question": [
+                "病史名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "治疗方式名称": {
+            "next": {
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{治疗方式名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                },
+                "开始时间": {
+                    "next": {},
+                    "question": [
+                        "{治疗方式名称}开始时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "结束时间": {
+                    "next": {},
+                    "question": [
+                        "{治疗方式名称}结束时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "持续时间": {
+                    "next": {},
+                    "question": [
+                        "{治疗方式名称}持续时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                }
+            },
+            "question": [
+                "治疗方式名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "用药名称": {
+            "next": {
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{用药名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                },
+                "用药频率": {
+                    "next": {},
+                    "question": [
+                        "{用药名称}频率"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "开始时间": {
+                    "next": {},
+                    "question": [
+                        "{用药名称}开始时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "结束时间": {
+                    "next": {},
+                    "question": [
+                        "{用药名称}结束时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "持续时间": {
+                    "next": {},
+                    "question": [
+                        "{用药名称}持续时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                }
+            },
+            "question": [
+                "用药名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "科室名称": {
+            "next": {
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{科室名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                }
+            },
+            "question": [
+                "科室名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "病人基本信息": {
+            "next": {
+                "年龄": {
+                    "next": {},
+                    "question": [
+                        "年龄"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "性别": {
+                    "next": {},
+                    "question": [
+                        "性别"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "男",
+                            "女",
+                            "不知道"
+                        ]
+                    }
+                },
+                "状态": {
+                    "next": {},
+                    "question": [
+                        "状态"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                }
+            },
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "question": [],
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "禁忌名称": {
+            "next": {
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{禁忌名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                }
+            },
+            "question": [
+                "禁忌名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "疾病诊断名称": {
+            "next": {
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{疾病诊断名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                },
+                "程度": {
+                    "next": {},
+                    "question": [
+                        "{疾病诊断名称}程度"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "可能性": {
+                    "next": {},
+                    "question": [
+                        "{疾病诊断名称}可能性"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "开始时间": {
+                    "next": {},
+                    "question": [
+                        "{疾病诊断名称}开始时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "结束时间": {
+                    "next": {},
+                    "question": [
+                        "{疾病诊断名称}结束时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "持续时间": {
+                    "next": {},
+                    "question": [
+                        "{疾病诊断名称}持续时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                }
+            },
+            "question": [
+                "疾病诊断名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "推荐用药名称": {
+            "next": {
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{推荐用药名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                },
+                "用药频率": {
+                    "next": {},
+                    "question": [
+                        "{推荐用药名称}频率"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "开始时间": {
+                    "next": {},
+                    "question": [
+                        "{推荐用药名称}开始时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "结束时间": {
+                    "next": {},
+                    "question": [
+                        "{推荐用药名称}结束时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "持续时间": {
+                    "next": {},
+                    "question": [
+                        "{推荐用药名称}持续时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                }
+            },
+            "question": [
+                "推荐用药名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "推荐检查名称": {
+            "next": {
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{推荐检查名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                }
+            },
+            "question": [
+                "推荐检查名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "推荐治疗方式名称": {
+            "next": {
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{推荐治疗方式名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                }
+            },
+            "question": [
+                "推荐治疗方式名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "其他症状名称": {
+            "next": {
+                "部位": {
+                    "next": {},
+                    "question": [
+                        "{其他症状名称}部位"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{其他症状名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                },
+                "程度": {
+                    "next": {},
+                    "question": [
+                        "{其他症状名称}程度"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "诱因": {
+                    "next": {},
+                    "question": [
+                        "{其他症状名称}诱因"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "频率": {
+                    "next": {},
+                    "question": [
+                        "{其他症状名称}频率"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "开始时间": {
+                    "next": {},
+                    "question": [
+                        "{其他症状名称}开始时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "结束时间": {
+                    "next": {},
+                    "question": [
+                        "{其他症状名称}结束时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "持续时间": {
+                    "next": {},
+                    "question": [
+                        "{其他症状名称}持续时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                }
+            },
+            "question": [
+                "其他症状名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "其他疾病名称": {
+            "next": {
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{其他疾病名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                },
+                "程度": {
+                    "next": {},
+                    "question": [
+                        "{其他疾病名称}程度"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "可能性": {
+                    "next": {},
+                    "question": [
+                        "{其他疾病名称}可能性"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "引起的",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "开始时间": {
+                    "next": {},
+                    "question": [
+                        "{其他疾病名称}开始时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "结束时间": {
+                    "next": {},
+                    "question": [
+                        "{其他疾病名称}结束时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "持续时间": {
+                    "next": {},
+                    "question": [
+                        "{其他疾病名称}持续时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                }
+            },
+            "question": [
+                "其他疾病名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "其他检查名称": {
+            "next": {
+                "检查值": {
+                    "next": {},
+                    "question": [
+                        "{其他检查名称}检查值"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{其他检查名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "不知道"
+                        ]
+                    }
+                },
+                "检查结果": {
+                    "next": {},
+                    "question": [
+                        "{其他检查名称}检查结果"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "检查时间": {
+                    "next": {},
+                    "question": [
+                        "{其他检查名称}检查时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                }
+            },
+            "question": [
+                "其他检查名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "其他用药名称": {
+            "next": {
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{其他用药名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                },
+                "用药频率": {
+                    "next": {},
+                    "question": [
+                        "{其他用药名称}用药频率"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "开始时间": {
+                    "next": {},
+                    "question": [
+                        "{其他用药名称}开始时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "结束时间": {
+                    "next": {},
+                    "question": [
+                        "{其他用药名称}结束时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "持续时间": {
+                    "next": {},
+                    "question": [
+                        "{其他用药名称}持续时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                }
+            },
+            "question": [
+                "其他用药名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "其他治疗方式名称": {
+            "next": {
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{其他治疗方式名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                },
+                "开始时间": {
+                    "next": {},
+                    "question": [
+                        "{其他治疗方式名称}开始时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "结束时间": {
+                    "next": {},
+                    "question": [
+                        "{其他治疗方式名称}结束时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                },
+                "持续时间": {
+                    "next": {},
+                    "question": [
+                        "{其他治疗方式名称}持续时间"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "extract",
+                        "range": 2
+                    }
+                }
+            },
+            "question": [
+                "其他治疗方式名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "其他禁忌名称": {
+            "next": {
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{其他禁忌名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                }
+            },
+            "question": [
+                "其他禁忌名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        },
+        "其他科室名称": {
+            "next": {
+                "是否存在": {
+                    "next": {},
+                    "question": [
+                        "{其他科室名称}是否存在"
+                    ],
+                    "ans_prefix": "",
+                    "ans_postfix": "",
+                    "answer": {
+                        "type": "category",
+                        "candidates": [
+                            "是",
+                            "否",
+                            "可能",
+                            "不知道"
+                        ]
+                    }
+                }
+            },
+            "question": [
+                "其他科室名称"
+            ],
+            "ans_prefix": "",
+            "ans_postfix": "",
+            "answer": {
+                "type": "extract",
+                "range": 2
+            }
+        }
+    }
+}

@@ -124,8 +124,8 @@
                     ]
                 }
             },
-            "question": "你有什么动作？",
-            "prefix": "我正在"
+            "question": "有什么动作？",
+            "prefix": ""
         },
         "patient": {
             "next": {
@@ -343,8 +343,8 @@
                     "slots": []
                 }
             },
-            "question": "你有什么意图？",
-            "prefix": "我正在"
+            "question": "有什么意图？",
+            "prefix": ""
         }
     },
     "slots": {
@@ -355,7 +355,7 @@
                     "question": [
                         "症状{症状名称}的部位是哪里？"
                     ],
-                    "ans_prefix": "{症状名称}的部位在",
+                    "ans_prefix": "",
                     "ans_postfix": "",
                     "answer": {
                         "type": "extract",
@@ -384,7 +384,7 @@
                     "question": [
                         "症状{症状名称}的程度如何？"
                     ],
-                    "ans_prefix": "症状{症状名称}",
+                    "ans_prefix": "",
                     "ans_postfix": "",
                     "answer": {
                         "type": "extract",
@@ -396,8 +396,8 @@
                     "question": [
                         "症状{症状名称}的诱因是什么？"
                     ],
-                    "ans_prefix": "症状{症状名称}是由",
-                    "ans_postfix": "引起的",
+                    "ans_prefix": "",
+                    "ans_postfix": "",
                     "answer": {
                         "type": "extract",
                         "range": 2
@@ -453,11 +453,9 @@
                 }
             },
             "question": [
-                "你有哪些症状？",
-                "你提及了哪些症状？",
-                "你现在有哪些症状？"
+                "有哪些症状？"
             ],
-            "ans_prefix": "我现在有",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
@@ -471,7 +469,7 @@
                     "question": [
                         "检查{检查名称}的检查值是多少？"
                     ],
-                    "ans_prefix": "{检查名称}的检查值是",
+                    "ans_prefix": "",
                     "ans_postfix": "",
                     "answer": {
                         "type": "extract",
@@ -499,7 +497,7 @@
                     "question": [
                         "检查{检查名称}的结果是什么？"
                     ],
-                    "ans_prefix": "{检查名称}的结果是",
+                    "ans_prefix": "",
                     "ans_postfix": "",
                     "answer": {
                         "type": "extract",
@@ -520,9 +518,9 @@
                 }
             },
             "question": [
-                "你提及了哪些检查？"
+                "提及了哪些检查？"
             ],
-            "ans_prefix": "我提及了",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
@@ -553,7 +551,7 @@
                     "question": [
                         "疾病{病史名称}的程度如何？"
                     ],
-                    "ans_prefix": "疾病{病史名称}",
+                    "ans_prefix": "",
                     "ans_postfix": "",
                     "answer": {
                         "type": "extract",
@@ -566,7 +564,7 @@
                         "疾病{病史名称}可能性多大？"
                     ],
                     "ans_prefix": "",
-                    "ans_postfix": "引起的",
+                    "ans_postfix": "",
                     "answer": {
                         "type": "extract",
                         "range": 2
@@ -610,9 +608,9 @@
                 }
             },
             "question": [
-                "你有哪些病史？"
+                "有哪些病史？"
             ],
-            "ans_prefix": "我曾经有",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
@@ -676,7 +674,7 @@
                 }
             },
             "question": [
-                "你曾经尝试过哪些治疗方式？"
+                "曾经尝试过哪些治疗方式？"
             ],
             "ans_prefix": "",
             "ans_postfix": "",
@@ -754,9 +752,9 @@
                 }
             },
             "question": [
-                "你曾经用过哪些药？"
+                "曾经用过哪些药？"
             ],
-            "ans_prefix": "我曾经有",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
@@ -768,7 +766,7 @@
                 "是否存在": {
                     "next": {},
                     "question": [
-                        "你是否推荐{科室名称}？"
+                        "是否推荐{科室名称}？"
                     ],
                     "ans_prefix": "",
                     "ans_postfix": "",
@@ -784,9 +782,9 @@
                 }
             },
             "question": [
-                "你推荐去哪个科室？"
+                "推荐去哪个科室？"
             ],
-            "ans_prefix": "我推荐",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
@@ -798,10 +796,9 @@
                 "年龄": {
                     "next": {},
                     "question": [
-                        "你现在多大？",
-                        "你年纪多少？"
+                        "年龄多少？"
                     ],
-                    "ans_prefix": "我",
+                    "ans_prefix": "",
                     "ans_postfix": "",
                     "answer": {
                         "type": "extract",
@@ -811,10 +808,9 @@
                 "性别": {
                     "next": {},
                     "question": [
-                        "你性别是什么？",
-                        "你是男还是女？"
+                        "是男还是女？"
                     ],
-                    "ans_prefix": "我是",
+                    "ans_prefix": "",
                     "ans_postfix": "",
                     "answer": {
                         "type": "category",
@@ -828,9 +824,9 @@
                 "状态": {
                     "next": {},
                     "question": [
-                        "你现在有哪些状态？"
+                        "现在有哪些状态？"
                     ],
-                    "ans_prefix": "我现在",
+                    "ans_prefix": "",
                     "ans_postfix": "",
                     "answer": {
                         "type": "extract",
@@ -867,7 +863,7 @@
                 }
             },
             "question": [
-                "你有哪些禁忌？"
+                "有哪些禁忌？"
             ],
             "ans_prefix": "",
             "ans_postfix": "",
@@ -900,7 +896,7 @@
                     "question": [
                         "疾病{疾病诊断名称}的程度如何？"
                     ],
-                    "ans_prefix": "疾病{疾病诊断名称}",
+                    "ans_prefix": "",
                     "ans_postfix": "",
                     "answer": {
                         "type": "extract",
@@ -913,7 +909,7 @@
                         "疾病{疾病诊断名称}可能性多大？"
                     ],
                     "ans_prefix": "",
-                    "ans_postfix": "引起的",
+                    "ans_postfix": "",
                     "answer": {
                         "type": "extract",
                         "range": 2
@@ -957,9 +953,9 @@
                 }
             },
             "question": [
-                "根据你的诊断有哪些疾病？"
+                "诊断了哪些疾病？"
             ],
-            "ans_prefix": "我认为你患有",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
@@ -1035,9 +1031,9 @@
                 }
             },
             "question": [
-                "你推荐使用哪些药？"
+                "推荐使用哪些药？"
             ],
-            "ans_prefix": "我推荐",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
@@ -1065,9 +1061,9 @@
                 }
             },
             "question": [
-                "你推荐哪些哪些检查？"
+                "推荐哪些检查？"
             ],
-            "ans_prefix": "我推荐",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
@@ -1079,7 +1075,7 @@
                 "是否存在": {
                     "next": {},
                     "question": [
-                        "你是否推荐{推荐治疗方式名称}？"
+                        "是否推荐{推荐治疗方式名称}？"
                     ],
                     "ans_prefix": "",
                     "ans_postfix": "",
@@ -1095,9 +1091,9 @@
                 }
             },
             "question": [
-                "你推荐哪些治疗方式？"
+                "推荐哪些治疗方式？"
             ],
-            "ans_prefix": "我推荐",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
@@ -1111,7 +1107,7 @@
                     "question": [
                         "症状{其他症状名称}的部位是哪里？"
                     ],
-                    "ans_prefix": "{其他症状名称}的部位在",
+                    "ans_prefix": "",
                     "ans_postfix": "",
                     "answer": {
                         "type": "extract",
@@ -1140,7 +1136,7 @@
                     "question": [
                         "症状{其他症状名称}的程度如何？"
                     ],
-                    "ans_prefix": "症状{其他症状名称}",
+                    "ans_prefix": "",
                     "ans_postfix": "",
                     "answer": {
                         "type": "extract",
@@ -1152,8 +1148,8 @@
                     "question": [
                         "症状{其他症状名称}的诱因是什么？"
                     ],
-                    "ans_prefix": "症状{其他症状名称}是由",
-                    "ans_postfix": "引起的",
+                    "ans_prefix": "",
+                    "ans_postfix": "",
                     "answer": {
                         "type": "extract",
                         "range": 2
@@ -1209,9 +1205,9 @@
                 }
             },
             "question": [
-                "你还提及了哪些其他症状？"
+                "还提及了哪些其他症状？"
             ],
-            "ans_prefix": "我还提到了",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
@@ -1242,7 +1238,7 @@
                     "question": [
                         "疾病{其他疾病名称}的程度如何？"
                     ],
-                    "ans_prefix": "疾病{其他疾病名称}",
+                    "ans_prefix": "",
                     "ans_postfix": "",
                     "answer": {
                         "type": "extract",
@@ -1255,7 +1251,7 @@
                         "疾病{其他疾病名称}可能性多大？"
                     ],
                     "ans_prefix": "",
-                    "ans_postfix": "引起的",
+                    "ans_postfix": "",
                     "answer": {
                         "type": "extract",
                         "range": 2
@@ -1299,9 +1295,9 @@
                 }
             },
             "question": [
-                "你还提及了哪些其他疾病？"
+                "还提及了哪些其他疾病？"
             ],
-            "ans_prefix": "我还提及了",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
@@ -1315,7 +1311,7 @@
                     "question": [
                         "检查{其他检查名称}的检查值是多少？"
                     ],
-                    "ans_prefix": "{其他检查名称}的检查值是",
+                    "ans_prefix": "",
                     "ans_postfix": "",
                     "answer": {
                         "type": "extract",
@@ -1343,7 +1339,7 @@
                     "question": [
                         "检查{其他检查名称}的结果是什么？"
                     ],
-                    "ans_prefix": "{其他检查名称}的结果是",
+                    "ans_prefix": "",
                     "ans_postfix": "",
                     "answer": {
                         "type": "extract",
@@ -1364,9 +1360,9 @@
                 }
             },
             "question": [
-                "你还提及了哪些检查？"
+                "还提及了哪些检查？"
             ],
-            "ans_prefix": "我还提及了",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
@@ -1442,9 +1438,9 @@
                 }
             },
             "question": [
-                "你还提及了哪些其他药品？"
+                "还提及了哪些其他药品？"
             ],
-            "ans_prefix": "我提及了",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
@@ -1508,9 +1504,9 @@
                 }
             },
             "question": [
-                "你还提及了哪些其他治疗方式？"
+                "还提及了哪些其他治疗方式？"
             ],
-            "ans_prefix": "我还提及了",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
@@ -1538,7 +1534,7 @@
                 }
             },
             "question": [
-                "你有哪些禁忌？"
+                "有哪些禁忌？"
             ],
             "ans_prefix": "",
             "ans_postfix": "",
@@ -1552,7 +1548,7 @@
                 "是否存在": {
                     "next": {},
                     "question": [
-                        "你是否推荐{其他科室名称}？"
+                        "是否推荐{其他科室名称}？"
                     ],
                     "ans_prefix": "",
                     "ans_postfix": "",
@@ -1568,9 +1564,9 @@
                 }
             },
             "question": [
-                "你还提及了哪个科室？"
+                "还提及了哪个科室？"
             ],
-            "ans_prefix": "我还提及了",
+            "ans_prefix": "",
             "ans_postfix": "",
             "answer": {
                 "type": "extract",
